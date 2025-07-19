@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext.jsx";
+import { useNavigate } from "react-router-dom";
 
 const SignupForm = ({ onSwitchToLogin }) => {
   const [name, setName] = useState("");
@@ -9,6 +10,7 @@ const SignupForm = ({ onSwitchToLogin }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const { signup } = useAuth();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -54,10 +56,25 @@ const SignupForm = ({ onSwitchToLogin }) => {
           </button>
         </form>
 
+        {/* Sign in link */}
         <div className="mt-6 text-center">
-          <p className="text-gray-600">Already have an account?{" "}
-            <button onClick={onSwitchToLogin} className="text-green-600 font-semibold">Sign in here</button>
+          <p className="text-gray-600">
+            Already have an account?{" "}
+            <button onClick={onSwitchToLogin} className="text-green-600 font-semibold">
+              Sign in here
+            </button>
           </p>
+        </div>
+
+        {/* Back to Home Button */}
+        <div className="mt-4 text-center">
+          <button
+            onClick={() => navigate('/')}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 text-white font-medium hover:from-green-700 hover:to-teal-700 transition-all duration-300"
+          >
+            <span className="text-lg">←</span>
+            <span>Back To Home</span>
+          </button>
         </div>
       </div>
     </div>

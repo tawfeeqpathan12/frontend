@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext.jsx";
+import { useNavigate } from "react-router-dom";
 
 const LoginForm = ({ onSwitchToSignup }) => {
   const [email, setEmail] = useState("");
@@ -15,6 +16,8 @@ const LoginForm = ({ onSwitchToSignup }) => {
     if (!result.success) setError(result.error);
     setLoading(false);
   };
+
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-400 via-green-500 to-blue-600 flex items-center justify-center px-4">
@@ -52,6 +55,16 @@ const LoginForm = ({ onSwitchToSignup }) => {
 
         <div className="mt-6 text-center">
           <p className="text-gray-600">Don’t have an account? <button onClick={onSwitchToSignup} className="text-green-600 font-semibold">Sign up here</button></p>
+        </div>
+        {/* Back to Home Button */}
+        <div className="mt-4 text-center">
+          <button
+            onClick={() => navigate('/')}
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 text-white font-medium hover:from-green-700 hover:to-teal-700 transition-all duration-300"
+          >
+            <span className="text-lg">←</span>
+            <span>Back To Home</span>
+          </button>
         </div>
       </div>
     </div>
