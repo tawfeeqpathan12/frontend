@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const API = `${"example.com"}/api`;
+const API = "https://eco-backend-2.onrender.com/api";
+
 
 const activityOptions = {
   transport: {

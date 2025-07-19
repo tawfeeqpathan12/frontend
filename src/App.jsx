@@ -4,10 +4,9 @@ import axios from "axios";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import AuthWrapper from "./components/AuthWrapper";
 import MultiActivityLogger from "./components/MultiActivityLogger";
-
 import Dashboard from "./components/Dashboard";
 
-const API = `${"example.com"}/api`;
+const API = "https://eco-backend-2.onrender.com/api";
 
 
 const AppContent = () => {

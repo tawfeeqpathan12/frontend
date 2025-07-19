@@ -1,8 +1,9 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 
-const BACKEND_URL = "example.com";
-const API = `${BACKEND_URL}/api`;
+
+const API = "https://eco-backend-2.onrender.com/api";
+
 
 const AuthContext = createContext();
 
