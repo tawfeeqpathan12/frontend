@@ -9,6 +9,7 @@ import Dashboard from "./components/Dashboard";
 
 const API = `${"example.com"}/api`;
 
+
 const AppContent = () => {
   const { isAuthenticated, loading, logout, user } = useAuth();
   const [currentView, setCurrentView] = useState("dashboard");
