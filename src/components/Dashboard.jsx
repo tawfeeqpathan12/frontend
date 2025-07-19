@@ -1,18 +1,14 @@
+// src/components/Dashboard.jsx
 import React from 'react';
 import {
   PieChart,
   Pie,
   Cell,
   ResponsiveContainer,
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
   Tooltip,
 } from 'recharts';
-import { TrendingDown, Award, Target } from 'lucide-react';
 import { useAuth } from '../context/AuthContext.jsx';
+import Chatbot from './Chatbot.jsx';
 
 const COLORS = ['#10B981', '#3B82F6', '#F59E0B', '#EF4444'];
 
@@ -59,13 +55,13 @@ const Dashboard = ({ summary }) => {
           <div className="text-sm text-gray-600">kg CO₂ Today</div>
           <div className={`text-xs mt-1 ${todayComparison.color}`}>{todayComparison.text}</div>
         </div>
-        
+
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
           <div className="text-3xl font-bold text-blue-600">{formatCO2(summary.total_co2_week)}</div>
           <div className="text-sm text-gray-600">kg CO₂ This Week</div>
           <div className="text-xs text-gray-500 mt-1">Avg: {formatCO2(summary.total_co2_week / 7)} kg/day</div>
         </div>
-        
+
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
           <div className="text-3xl font-bold text-purple-600">{summary.user_stats?.total_activities_month || 0}</div>
           <div className="text-sm text-gray-600">Activities This Month</div>
@@ -80,7 +76,6 @@ const Dashboard = ({ summary }) => {
       </div>
 
       <div className="grid md:grid-cols-2 gap-8">
-        {/* Monthly Breakdown Pie Chart */}
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
           <h3 className="text-xl font-bold text-gray-800 mb-4">Monthly Breakdown</h3>
           <div className="h-64">
@@ -105,7 +100,6 @@ const Dashboard = ({ summary }) => {
           </div>
         </div>
 
-        {/* Recent Activities */}
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
           <h3 className="text-xl font-bold text-gray-800 mb-4">Recent Activities</h3>
           {summary.recent_activities && summary.recent_activities.length > 0 ? (
@@ -129,6 +123,9 @@ const Dashboard = ({ summary }) => {
           )}
         </div>
       </div>
+
+      {/* EcoBot Chat Assistant */}
+      <Chatbot summary={summary} userName={user?.name} />
     </div>
   );
 };
