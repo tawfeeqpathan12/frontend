@@ -1,0 +1,18 @@
+{
+  "myProfile": "Мой профиль",
+  "userAvatar": "Аватар пользователя",
+  "edit": "Редактировать",
+  "personalInformation": "Личная информация",
+  "firstName": "Имя",
+  "lastName": "Фамилия",
+  "email": "Электронная почта",
+  "phone": "Телефон",
+  "resetYourPassword": "Сбросить пароль",
+  "currentPassword": "Текущий пароль",
+  "newPassword": "Новый пароль",
+  "reEnterPassword": "Повторите пароль",
+  "updatePassword": "Обновить пароль",
+  "cancel": "Отмена",
+  "editProfile": "Редактировать профиль",
+  "confirmPasswordError": "Подтверждение пароля должно совпадать"
+}

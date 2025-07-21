@@ -1,0 +1,17 @@
+{
+  "Noticeboard": "Доска объявлений",
+  "Priority": "Приоритет",
+  "High Priority": "Высокий приоритет",
+  "Low Priority": "Низкий приоритет",
+  "See All": "Посмотреть все",
+  "No Notices Found": "Объявления не найдены",
+  "Search by Notice": "Поиск по объявлениям",
+  "Search": "Поиск",
+  "Failed to fetch notices": "Не удалось загрузить объявления",
+  "Untitled": "Без названия",
+  "No Date": "Нет даты",
+  "No description available": "Описание отсутствует",
+  "Child Notice Board": "Детская доска объявлений",
+  "No Notices are available": "Объявления недоступны",
+  "Unable to fetch Notices": "Не удалось загрузить уведомления"
+}

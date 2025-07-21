@@ -1,0 +1,20 @@
+{
+  "Library": "Библиотека",
+  "Book Issue": "Выдача книги",
+  "Issue Book": "Выдать книгу",
+  "Author": "Автор",
+  "Category": "Категория",
+  "Issue Date": "Дата выдачи",
+  "Return Date": "Дата возврата",
+  "Status": "Статус",
+  "All": "Все",
+  "Pending": "В ожидании",
+  "Return": "Возврат",
+  "Unknown Title": "Неизвестное название",
+  "Unknown Author": "Неизвестный автор",
+  "Unknown Category": "Неизвестная категория",
+  "No Status": "Нет статуса",
+  "Class": "Класс",
+  "Copies": "Копии",
+  "Available": "Доступно"
+}

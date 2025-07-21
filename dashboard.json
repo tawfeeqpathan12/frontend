@@ -1,0 +1,23 @@
+{
+  "Students": "Студенты",
+  "Teacher": "Учитель",
+  "Parents": "Родители",
+  "Staff": "Персонал",
+  "Earnings": "Доходы",
+  "Event Name": "Название события",
+  "Event Type": "Тип события",
+  "Start Date": "Дата начала",
+  "No Earnings/Expense Data Found": "Данные о доходах/расходах не найдены",
+  "No student data found": "Данные студентов не найдены",
+  "No noticeboard data found": "Данные доски объявлений не найдены",
+  "This month": "Этот месяц",
+  "Last month": "Прошлый месяц",
+  "Total Collections": "Общий сбор",
+  "Total Expenses": "Общие расходы",
+  "Total Students": "Общее количество студентов",
+  "Female Students": "Студентки",
+  "Male Students": "Студенты (муж.)",
+  "Notice Board": "Доска объявлений",
+  "View All": "Просмотреть все",
+  "Event": "Событие"
+}
