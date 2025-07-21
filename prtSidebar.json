@@ -1,11 +1,11 @@
 {
-  "Menu": "Меню",
-  "Logout": "Выйти",
-  "User": "Пользователь",
-  "Dashboard": "Панель управления",
-  "My Childs": "Мои дети",
-  "Finance": "Финансы",
-  "Library": "Библиотека",
-  "Notice Board": "Доска объявлений",
-  "Events": "События"
+  "Menu": "مینو",
+  "Logout": "لاگ آؤٹ",
+  "User": "صارف",
+  "Dashboard": "ڈیش بورڈ",
+  "My Childs": "میرے بچے",
+  "Finance": "مالیات",
+  "Library": "لائبریری",
+  "Notice Board": "اطلاعاتی بورڈ",
+  "Events": "تقریبات"
 }
