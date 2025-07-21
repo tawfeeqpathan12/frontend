@@ -1,13 +1,13 @@
 {
-  "Student Events": "Студенческие мероприятия",
-  "No Events in this Month": "В этом месяце нет мероприятий",
-  "Location": "Местоположение",
-  "Event Director": "Директор мероприятия",
-  "Event Type": "Тип мероприятия",
-  "Event name": "Название мероприятия",
-  "No Details Available": "Нет доступных деталей",
-  "No Location Available": "Местоположение не указано",
-  "No Director Available": "Директор не указан",
-  "No Type Available": "Тип не указан",
-  "Select an action": "Выберите действие"
+  "Student Events": "طلباء کی تقریبات",
+  "No Events in this Month": "اس مہینے کوئی تقریب نہیں",
+  "Location": "مقام",
+  "Event Director": "تقریب کا منتظم",
+  "Event Type": "تقریب کی قسم",
+  "Event name": "تقریب کا نام",
+  "No Details Available": "تفصیلات دستیاب نہیں",
+  "No Location Available": "مقام دستیاب نہیں",
+  "No Director Available": "منتظم دستیاب نہیں",
+  "No Type Available": "قسم دستیاب نہیں",
+  "Select an action": "کوئی کارروائی منتخب کریں"
 }
