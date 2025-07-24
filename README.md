@@ -29,7 +29,7 @@
 ## 📁 Repositories
 
 - 🔸 **Frontend**: [EcoTrack Frontend](https://github.com/tawfeeqpathan12/frontend)
-- 🔹 **Backend**: [EcoTrack Backend](https://github.com/tawfeeqpathan12/eco-backend)
+- 🔹 **Backend**: [EcoTrack Backend](https://github.com/Raish10100/eco-backend)
 
 ---
 
