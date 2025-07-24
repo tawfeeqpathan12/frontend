@@ -91,13 +91,13 @@
 ### 💻 Frontend Setup
 
 ```bash
-git clone https://github.com/your-username/ecotrack-frontend.git
-cd ecotrack-frontend
+git clone https://github.com/tawfeeqpathan12/frontend.git
+cd frontend
 npm install
 npm run dev
 ````
 
-🧪 API endpoint (inside your frontend code):
+🧪 The API endpoint is already integrated into the frontend code, so there's no need to set up the backend locally.
 
 ```js
 const API = "https://eco-backend-2.onrender.com/api";
@@ -107,11 +107,11 @@ const API = "https://eco-backend-2.onrender.com/api";
 
 ---
 
-### 🐍 Backend Setup
+### 🐍 Backend Setup (Optional – already deployed)
 
 ```bash
-git clone https://github.com/your-username/ecotrack-backend.git
-cd ecotrack-backend
+git clone https://github.com/Raish10100/eco-backend.git
+cd eco-backend
 pip install -r requirements.txt
 ```
 
